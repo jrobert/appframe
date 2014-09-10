@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'museosansrounded-100';
+    src: url('../fonts/museosansrounded-100.eot');
+    src: url('../fonts/museosansrounded-100.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museosansrounded-100.woff') format('woff'),
+    url('../fonts/museosansrounded-100.ttf') format('truetype'),
+    url('../fonts/museosansrounded-100.svg#museosansrounded-100') format('svg');
+}
+
+@font-face {
+    font-family: 'museosansrounded-300';
+    src: url('../fonts/museosansrounded-300.eot');
+    src: url('../fonts/museosansrounded-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museosansrounded-300.woff') format('woff'),
+    url('../fonts/museosansrounded-300.ttf') format('truetype'),
+    url('../fonts/museosansrounded-300.svg#museosansrounded-300') format('svg');
+}
+
+@font-face {
+    font-family: 'museosansrounded-500';
+    src: url('../fonts/museosansrounded-500.eot');
+    src: url('../fonts/museosansrounded-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museosansrounded-500.woff') format('woff'),
+    url('../fonts/museosansrounded-500.ttf') format('truetype'),
+    url('../fonts/museosansrounded-500.svg#museosansrounded-500') format('svg');
+}
+
+@font-face {
+    font-family: 'museosansrounded-700';
+    src: url('../fonts/museosansrounded-700.eot');
+    src: url('../fonts/museosansrounded-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museosansrounded-700.woff') format('woff'),
+    url('../fonts/museosansrounded-700.ttf') format('truetype'),
+    url('../fonts/museosansrounded-700.svg#museosansrounded-700') format('svg');
+}
+
+body {
+	overflow: hidden;
+	width: 100%;
+}
+
+a:focus {
+	outline: none;
+}
+
+.row {
+	margin-right: -15px!important;
+	margin-left: -15px!important;
+}
+
+.navbar-header  {
+	width: auto;
+}
+
+nav  ul  {
+	width: 100%;
+}
+
+.navbar-header {
+background-color: #FBB040;
+position: fixed;
+top: 0;
+width: 51.1%;
+}
+
+.navbar-collapse,
+.navbar-brand,
+.nomargin > div {
+	margin:0;
+	padding:0;
+}
+
+.navbar-brand {
+	border-left: 50px solid #F7931E;
+}
+	
+#bs-example-navbar-collapse-1 {
+	position: relative;
+	top: 555px;
+}	
+	
+#bs-example-navbar-collapse-1 .stuck {
+	position: fixed;
+	top: 0!important;
+	width: 50%;
+}
+
+	
+nav {
+	/* background-color: #FBB040; */
+	border: 0!important;
+}
+
+nav  ul.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	height: inherit;
+}
+
+nav  ul  li {
+	border-left: 15px solid;
+	height: inherit;
+}
+
+nav  ul  li:nth-child(1) {
+	background-color: #C3B49B;
+	border-left-color: #A59984;
+}
+
+nav  ul  li:nth-child(2) {
+	background-color: #F7931D;
+	border-left-color: #D27D18;
+}
+
+nav  ul  li:nth-child(3) {
+	background-color: #A97B50;
+	border-left-color: #8F6844;
+}
+
+
+nav .nav li a {
+	color: #FFF;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 28px;
+	padding: 75px 0 20px 0;    
+	font-family: Calibri, sans-serif;
+}
+
+.nav li a:hover {
+	background-color: transparent;
+	color: #FFF;
+} 
+
+#marker {
+    position: fixed;
+    left: 10px;
+    top: 40%;
+}
+
+#marker ul {
+	margin-bottom: 0;
+}
+
+#marker li {
+    padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#marker li a {
+	padding:0;
+}
+
+#marker li i {
+	color: rgb(255,255,255);
+	font-size: 20px;
+	transition: all 300ms ease;
+}
+
+#marker li:hover i,
+#marker li.active i {
+	color: rgba(0,0,0, 0.4);
+} 
+
+section {
+	height: 550px;
+	overflow: hidden;
+	color: #FFF;
+	margin: 0;
+}
+
+.section-title {
+	padding: 30px 30px 30px 133px;
+	width: 29%;
+	margin-bottom: 30px;
+	font-family: 'museosansrounded-100';
+}
+
+section h1 {
+	font-family: 'museosansrounded-300';
+	margin-top: 0;
+}
+
+section h2 {
+	font-family: 'museosansrounded-100';
+}
+
+section h3 {
+	font-family: 'museosansrounded-700';
+}
+
+section p {
+	font-size: 24px;
+	line-height: 27px;
+	font-family: 'museosansrounded-100';
+}
+
+.col-wrapper {
+	padding: 0 20px;
+}
+
+#part-1 {
+	/* margin-top: 162px; */
+	color: #C39A6B;
+}
+
+#part-1 ul {
+	margin-top: 15%;
+}
+
+#part-1 ul li {
+	padding: 1px 20px 10px;
+}
+
+#part-1 ul li:nth-child(even) {
+	background-color: #A97B50;
+	color: #FFF;
+}
+
+#part-2 {
+	background-color: #C3B49B;
+	padding: 50px 0;
+}
+
+#part-2 .col-wrapper img {
+	margin-top: 45%;
+} 
+
+#part-2  .border-right {
+	border-right:1px solid #9B8679;
+}
+
+#part-2 h3 {
+	color: #9B8679;
+}
+
+#part-3 {
+	background-color: #9B8679;
+}
+
+#part-3 .section-title {
+	background-color: #C3B49B;
+}
+
+#part-4 {
+	background-color: #76655B;
+}
+
+#part-4 .section-title {
+	background-color: #9B8679;
+}
+
+#part-4 h2 {
+	margin-bottom: 20px;
+}
+
+#part-4 .container {
+	margin-top: -180px;
+}
+
+#part-5 {
+	background-color: #C39A6B;
+	padding: 50px 0;
+}
+
+#part-5 h1 {
+	margin-bottom: 50px;
+}
+
+#part-5 .col-wrapper img {
+	margin-bottom: 30px; 
+}
+
+#part-6 {
+	background-color: #F7931D;
+	padding: 50px 0;
+}
+
+#part-6 h1 {
+	margin-bottom: 30px;
+}
+
+#part-6 .col-md-3 .col-wrapper {
+	position: relative;
+}
+
+#part-6 .col-md-3:nth-child(even) img{
+	margin-top: 150px;
+}
+
+#part-7 {
+	background-color: #A97B50;
+	padding: 80px 0;
+}
+
+#part-7 form {
+	margin-bottom: 25px;
+}
+
+#part-7 form .form-control {
+	width: 75%;
+}
+
+#part-7 form button,
+#part-7 form input {
+	border:0;
+	background-color: #FFF; 
+	border-radius: 0;
+	height: 40px;
+}
+
+#part-7 form textarea {
+	border:0;
+	border-radius: 0;
+}
+
+#part-7 form button {
+	margin-top: 130px;
+	margin-left: 10px;
+}
+
+#part-7 ul li {
+	margin-bottom: 8px;
+	line-height: 27px;
+	font-size: 24px;
+	font-family: 'museosansrounded-100';
+}
+
+
+#footer {
+	height: 200px;
+	background-color: #744C27;
+}
+
+
+
+
+
+
+
+
